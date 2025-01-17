@@ -18,11 +18,11 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 # Initialize NLTK resources
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('averaged_perceptron_tagger_eng')
+# nltk.download('punkt')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('averaged_perceptron_tagger_eng')
 
 lemmatizer = WordNetLemmatizer()
 
