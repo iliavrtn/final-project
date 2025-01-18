@@ -115,7 +115,6 @@ def run_xlnet_classification(segmented_data):
 
     # Test Metrics
     print("Calculating test metrics...")
-    from sklearn.metrics import accuracy_score, precision_recall_fscore_support
     test_acc = accuracy_score(datasets['test']['label'], test_pred)
     test_precision, test_recall, test_f1, _ = precision_recall_fscore_support(
         datasets['test']['label'], test_pred, average='weighted'
